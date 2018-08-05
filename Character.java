@@ -32,7 +32,6 @@ public class Character
         Constitution = Con;
     }
 
-
     public Object[] Attack(Character a, boolean b) throws Exception
     {
         int num = (int)Math.random() * Inventory.length + 1;
